@@ -1,0 +1,11 @@
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\bin\Debug\Deducciones Sueldo.exe.config
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\bin\Debug\Deducciones Sueldo.exe
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\bin\Debug\Deducciones Sueldo.pdb
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\obj\Debug\Deducciones Sueldo.csproj.AssemblyReference.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\obj\Debug\Deducciones Sueldo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\obj\Debug\Deducciones_Sueldo.Form1.resources
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\obj\Debug\Deducciones_Sueldo.Properties.Resources.resources
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\obj\Debug\Deducciones Sueldo.csproj.GenerateResource.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\obj\Debug\Deducciones Sueldo.csproj.CoreCompileInputs.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\obj\Debug\Deducciones Sueldo.exe
+C:\Users\Adamg\Desktop\3D Objects\C#\Desarrollo-De-Software-II\Desarrollo-De-Software-II\Deducciones Sueldo\obj\Debug\Deducciones Sueldo.pdb
