@@ -1,0 +1,13 @@
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\obj\Debug\Registro Pacientes.csproj.AssemblyReference.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\obj\Debug\Registro Pacientes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\obj\Debug\Registro_Pacientes.Login.resources
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\obj\Debug\Registro_Pacientes.Properties.Resources.resources
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\obj\Debug\Registro Pacientes.csproj.GenerateResource.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\obj\Debug\Registro Pacientes.csproj.CoreCompileInputs.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\bin\Debug\Registro Pacientes.exe.config
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\bin\Debug\Registro Pacientes.exe
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\bin\Debug\Registro Pacientes.pdb
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\obj\Debug\Registro Pacientes.exe
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\obj\Debug\Registro Pacientes.pdb
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\obj\Debug\Registro_Pacientes.Main.resources
+C:\Users\Adamg\Desktop\3D Objects\C#\Registro Pacientes\Registro Pacientes\obj\Debug\Registro_Pacientes.FormClients.resources
