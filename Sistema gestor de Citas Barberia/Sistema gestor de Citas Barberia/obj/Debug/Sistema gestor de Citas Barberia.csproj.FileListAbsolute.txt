@@ -1,0 +1,15 @@
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\bin\Debug\Sistema gestor de Citas Barberia.exe.config
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\bin\Debug\Sistema gestor de Citas Barberia.exe
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\bin\Debug\Sistema gestor de Citas Barberia.pdb
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\obj\Debug\Sistema gestor de Citas Barberia.csproj.AssemblyReference.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\obj\Debug\Sistema gestor de Citas Barberia.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\obj\Debug\Sistema_gestor_de_Citas_Barberia.Properties.Resources.resources
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\obj\Debug\Sistema gestor de Citas Barberia.csproj.GenerateResource.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\obj\Debug\Sistema gestor de Citas Barberia.csproj.CoreCompileInputs.cache
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\obj\Debug\Sistema gestor de Citas Barberia.exe
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\obj\Debug\Sistema gestor de Citas Barberia.pdb
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\obj\Debug\Sistema_gestor_de_Citas_Barberia.Login.resources
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\obj\Debug\Sistema gestor de Citas Barberia.csproj.CopyComplete
+C:\Users\Adamg\Desktop\3D Objects\C#\Sistema gestor de Citas Barberia\Sistema gestor de Citas Barberia\obj\Debug\Sistema_gestor_de_Citas_Barberia.Citas.resources
