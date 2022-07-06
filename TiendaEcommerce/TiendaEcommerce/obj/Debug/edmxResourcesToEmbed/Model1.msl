@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EcommerceModelStoreContainer" CdmEntityContainer="EcommerceEntities">
+    <EntitySetMapping Name="Categorias">
+      <EntityTypeMapping TypeName="EcommerceModel.Categorias">
+        <MappingFragment StoreEntitySet="Categorias">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre_Categoria" ColumnName="Nombre Categoria" />
+          <ScalarProperty Name="Fecha_Creacion" ColumnName="Fecha Creacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="EcommerceModel.Productos">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre_Producto" ColumnName="Nombre Producto" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Cantidad_Disponible" ColumnName="Cantidad Disponible" />
+          <ScalarProperty Name="Suplidor_Id" ColumnName="Suplidor Id" />
+          <ScalarProperty Name="Suplidor" ColumnName="Suplidor" />
+          <ScalarProperty Name="Categoria_Id" ColumnName="Categoria Id" />
+          <ScalarProperty Name="Fecha_Llegaron" ColumnName="Fecha Llegaron" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reviews">
+      <EntityTypeMapping TypeName="EcommerceModel.Reviews">
+        <MappingFragment StoreEntitySet="Reviews">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Id_Producto" ColumnName="Id Producto" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Detalles" ColumnName="Detalles" />
+          <ScalarProperty Name="Fecha_de_Review" ColumnName="Fecha de Review" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suplidores">
+      <EntityTypeMapping TypeName="EcommerceModel.Suplidores">
+        <MappingFragment StoreEntitySet="Suplidores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre_Categoria" ColumnName="Nombre Categoria" />
+          <ScalarProperty Name="Fecha_Afiliacion" ColumnName="Fecha Afiliacion" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

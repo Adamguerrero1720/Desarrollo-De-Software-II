@@ -1,0 +1,75 @@
+﻿@model TiendaEcommerce.Productos
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<br />
+<br />
+<h2>Detalles</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre_Producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre_Producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cantidad_Disponible)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cantidad_Disponible)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Suplidor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Suplidor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha_Llegaron)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha_Llegaron)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categorias.Nombre_Categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categorias.Nombre_Categoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Suplidores.Nombre_Categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Suplidores.Nombre_Categoria)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

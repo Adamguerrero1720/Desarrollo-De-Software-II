@@ -1,0 +1,64 @@
+﻿@model TiendaEcommerce.Suplidores
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Eliminar Suplidor</h2>
+
+<h3>Seguro que quieres borrar este suplidor?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre_Categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre_Categoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha_Afiliacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha_Afiliacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

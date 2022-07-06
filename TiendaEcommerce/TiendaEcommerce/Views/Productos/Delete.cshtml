@@ -1,0 +1,83 @@
+﻿@model TiendaEcommerce.Productos
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<br />
+<br />
+<h2>Eliminar Productos</h2>
+
+<h3>Seguro que quieres borrar esta categoria?</h3>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre_Producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre_Producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cantidad_Disponible)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cantidad_Disponible)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Suplidor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Suplidor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha_Llegaron)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha_Llegaron)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categorias.Nombre_Categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categorias.Nombre_Categoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SuplidoresSet.Nombre_Categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SuplidoresSet.Nombre_Categoria)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
