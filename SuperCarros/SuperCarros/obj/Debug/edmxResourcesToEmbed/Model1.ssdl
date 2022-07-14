@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SuperCarrosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="VenderCarro">
+    <Key>
+      <PropertyRef Name="Carro_Id" />
+    </Key>
+    <Property Name="Nombre_Dueño" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Telefono_Dueño" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Año" Type="date" Nullable="false" />
+    <Property Name="Precio" Type="money" Nullable="false" />
+    <Property Name="Transmision" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Millaje" Type="numeric" Precision="7" Scale="0" Nullable="false" />
+    <Property Name="Tracción" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Combustible" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Puertas" Type="int" Nullable="false" />
+    <Property Name="Pasajeros" Type="int" Nullable="false" />
+    <Property Name="Lugar" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Imagen_Vehiculo" Type="image" Nullable="false" />
+    <Property Name="Carro_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="SuperCarrosModelStoreContainer">
+    <EntitySet Name="VenderCarro" EntityType="Self.VenderCarro" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

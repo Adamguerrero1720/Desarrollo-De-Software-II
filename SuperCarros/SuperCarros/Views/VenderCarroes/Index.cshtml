@@ -1,0 +1,123 @@
+﻿@model IEnumerable<SuperCarros.VenderCarro>
+
+@{
+    Layout = "~/Views/VenderCarroes/Details.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre_Dueño)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefono_Dueño)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Marca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Año)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Transmision)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Millaje)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tracción)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Combustible)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Puertas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pasajeros)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lugar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Imagen_Vehiculo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre_Dueño)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefono_Dueño)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Marca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Modelo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tipo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Año)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Transmision)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Millaje)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tracción)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Combustible)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Puertas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pasajeros)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lugar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Imagen_Vehiculo)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Carro_Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Carro_Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Carro_Id })
+        </td>
+    </tr>
+}
+
+</table>

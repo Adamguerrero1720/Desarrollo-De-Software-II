@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SuperCarrosModelStoreContainer" CdmEntityContainer="SuperCarrosEntities">
+    <EntitySetMapping Name="VenderCarroes">
+      <EntityTypeMapping TypeName="SuperCarrosModel.VenderCarro">
+        <MappingFragment StoreEntitySet="VenderCarro">
+          <ScalarProperty Name="Nombre_Dueño" ColumnName="Nombre_Dueño" />
+          <ScalarProperty Name="Telefono_Dueño" ColumnName="Telefono_Dueño" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Año" ColumnName="Año" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Transmision" ColumnName="Transmision" />
+          <ScalarProperty Name="Millaje" ColumnName="Millaje" />
+          <ScalarProperty Name="Tracción" ColumnName="Tracción" />
+          <ScalarProperty Name="Combustible" ColumnName="Combustible" />
+          <ScalarProperty Name="Puertas" ColumnName="Puertas" />
+          <ScalarProperty Name="Pasajeros" ColumnName="Pasajeros" />
+          <ScalarProperty Name="Lugar" ColumnName="Lugar" />
+          <ScalarProperty Name="Imagen_Vehiculo" ColumnName="Imagen_Vehiculo" />
+          <ScalarProperty Name="Carro_Id" ColumnName="Carro_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

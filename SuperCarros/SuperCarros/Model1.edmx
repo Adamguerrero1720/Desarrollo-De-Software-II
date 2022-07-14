@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SuperCarrosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="VenderCarro">
+          <Key>
+            <PropertyRef Name="Carro_Id" />
+          </Key>
+          <Property Name="Nombre_Dueño" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Telefono_Dueño" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="Estado" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Marca" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Modelo" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Tipo" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Año" Type="date" Nullable="false" />
+          <Property Name="Precio" Type="money" Nullable="false" />
+          <Property Name="Transmision" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Millaje" Type="numeric" Precision="7" Scale="0" Nullable="false" />
+          <Property Name="Tracción" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Combustible" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Puertas" Type="int" Nullable="false" />
+          <Property Name="Pasajeros" Type="int" Nullable="false" />
+          <Property Name="Lugar" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="Imagen_Vehiculo" Type="image" Nullable="false" />
+          <Property Name="Carro_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="SuperCarrosModelStoreContainer">
+          <EntitySet Name="VenderCarro" EntityType="Self.VenderCarro" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SuperCarrosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="VenderCarro">
+          <Key>
+            <PropertyRef Name="Carro_Id" />
+          </Key>
+          <Property Name="Nombre_Dueño" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Telefono_Dueño" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Marca" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Modelo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Año" Type="DateTime" Nullable="false" />
+          <Property Name="Precio" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="Transmision" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Millaje" Type="Decimal" Precision="7" Scale="0" Nullable="false" />
+          <Property Name="Tracción" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Combustible" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Puertas" Type="Int32" Nullable="false" />
+          <Property Name="Pasajeros" Type="Int32" Nullable="false" />
+          <Property Name="Lugar" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Imagen_Vehiculo" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="Carro_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityContainer Name="SuperCarrosEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="VenderCarroes" EntityType="Self.VenderCarro" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SuperCarrosModelStoreContainer" CdmEntityContainer="SuperCarrosEntities">
+          <EntitySetMapping Name="VenderCarroes">
+            <EntityTypeMapping TypeName="SuperCarrosModel.VenderCarro">
+              <MappingFragment StoreEntitySet="VenderCarro">
+                <ScalarProperty Name="Nombre_Dueño" ColumnName="Nombre_Dueño" />
+                <ScalarProperty Name="Telefono_Dueño" ColumnName="Telefono_Dueño" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="Marca" ColumnName="Marca" />
+                <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+                <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+                <ScalarProperty Name="Año" ColumnName="Año" />
+                <ScalarProperty Name="Precio" ColumnName="Precio" />
+                <ScalarProperty Name="Transmision" ColumnName="Transmision" />
+                <ScalarProperty Name="Millaje" ColumnName="Millaje" />
+                <ScalarProperty Name="Tracción" ColumnName="Tracción" />
+                <ScalarProperty Name="Combustible" ColumnName="Combustible" />
+                <ScalarProperty Name="Puertas" ColumnName="Puertas" />
+                <ScalarProperty Name="Pasajeros" ColumnName="Pasajeros" />
+                <ScalarProperty Name="Lugar" ColumnName="Lugar" />
+                <ScalarProperty Name="Imagen_Vehiculo" ColumnName="Imagen_Vehiculo" />
+                <ScalarProperty Name="Carro_Id" ColumnName="Carro_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
